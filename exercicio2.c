@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <iso646.h> // Permite usar o 'or', ao invés de usar o operador lógico não (pipe)
-#include <ctype.h> // Biblioteca para o tolower(), transformando qualquer letra maiúscula em minúscula
-#include <locale.h> // Biblioteca para acentuação
+#include <iso646.h> // Permite usar o 'or', ao invÃ©s de usar o operador lÃ³gico 'ou' (pipe)
+#include <ctype.h> // Biblioteca para o tolower(), transformando qualquer letra maiÃºscula em minÃºscula
+#include <locale.h> // Biblioteca para acentuaÃ§Ã£o
 
 int main(){
       
@@ -15,13 +15,14 @@ int main(){
       char minuscula = tolower(a);
       
       if(minuscula == 'a' or minuscula == 'e' or minuscula == 'i' or minuscula == 'o' or minuscula == 'u'){
-	  printf(" %c é uma vogal.\n", a);	
+	  printf(" %c Ã© uma vogal.\n", a);	
 	  }
 	  
 	  else{
-	  	printf(" %c é uma consoante.\n", a);
+	  	printf(" %c Ã© uma consoante.\n", a);
 	  }
       
       return 0;
 	
 }
+
