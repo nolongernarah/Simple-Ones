@@ -16,7 +16,7 @@ int main(void) {
         scanf("%d", &senhaDigitada);
 
         if (senhaDigitada == senhaCorreta) {
-            printf("\nAcesso liberado!\n", senhaCorreta);
+            printf("\nAcesso liberado!\n");
         } else {
             if (tentativas < limite) {
                 printf("Acesso negado! Tente novamente.\n\n ");
