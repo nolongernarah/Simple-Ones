@@ -11,7 +11,8 @@ add_executable(exercicio2 exercicio2.c)
 add_executable(ifelse ifelse.c)
 add_executable(calculadorasimples calculadorasimples.c
         fatorial.c
-        medialoop.c)
+        medialoop.c
+        aaaa.c)
 add_executable(tabuada tabuada.c)
 add_executable(foguete foguete.c)
 add_executable(imparoupar imparoupar.c)
@@ -22,3 +23,5 @@ add_executable(quadradoperfeito quadradoperfeito.c)
 add_executable(soma1a100 soma1a100.c)
 add_executable(fatorial fatorial.c)
 add_executable(medialoop medialoop.c)
+add_executable(aaaa aaaa.c)
+add_executable(eleicao eleicao.c)
