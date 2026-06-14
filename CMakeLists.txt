@@ -25,6 +25,10 @@ add_executable(fatorial fatorial.c)
 add_executable(medialoop medialoop.c)
 add_executable(aaaa aaaa.c
         somaintervalo.c
+        conversortemp.c
+        maiornumerofuncao.c
+        numeroprimofuncao.c
+        matrizdiagonalprincipal.c
 )
 add_executable(eleicao eleicao.c)
 add_executable(contagem contagem.c)
@@ -41,3 +45,7 @@ add_executable(buscalinearvetor buscalinearvetor.c)
 add_executable(frequencia frequencia.c)
 add_executable(somamatrizes somamatrizes.c)
 add_executable(maiornumeromatriz maiornumeromatriz.c)
+add_executable(conversortemp conversortemp.c)
+add_executable(maiornumerofuncao maiornumerofuncao.c)
+add_executable(numeroprimofuncao numeroprimofuncao.c)
+add_executable(matrizdiagonalprincipal matrizdiagonalprincipal.c)
