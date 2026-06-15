@@ -31,6 +31,7 @@ add_executable(aaaa aaaa.c
         matrizdiagonalprincipal.c
         matriztransposta.c
         matrizidentidade.c
+        inversaovetor.c
 )
 add_executable(eleicao eleicao.c)
 add_executable(contagem contagem.c)
@@ -53,3 +54,4 @@ add_executable(numeroprimofuncao numeroprimofuncao.c)
 add_executable(matrizdiagonalprincipal matrizdiagonalprincipal.c)
 add_executable(matriztransposta matriztransposta.c)
 add_executable(matrizidentidade matrizidentidade.c)
+add_executable(inversaovetor inversaovetor.c)
