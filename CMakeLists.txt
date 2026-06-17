@@ -33,6 +33,8 @@ add_executable(aaaa aaaa.c
         matrizidentidade.c
         inversaovetor.c
         menornumerovetor.c
+        multimatrizescalar.c
+        somadiagonalsecundaria.c
 )
 add_executable(eleicao eleicao.c)
 add_executable(contagem contagem.c)
@@ -60,3 +62,5 @@ add_executable(menornumerovetor menornumerovetor.c)
 add_executable(separarpareimpar separarpareimpar.c)
 add_executable(funcaofatorial funcaofatorial.c)
 add_executable(mediavetorfuncao mediavetorfuncao.c)
+add_executable(multimatrizescalar multimatrizescalar.c)
+add_executable(somadiagonalsecundaria somadiagonalsecundaria.c)
